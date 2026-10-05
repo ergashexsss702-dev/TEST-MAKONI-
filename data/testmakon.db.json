@@ -1,0 +1,772 @@
+{
+  "profiles": [
+    {
+      "id": "prof-admin-01",
+      "user_id": "usr-admin-01",
+      "first_name": "Anvar",
+      "last_name": "Qodirov",
+      "phone": "+998 90 123 45 67",
+      "role": "ADMIN",
+      "telegram_user_id": 99887766,
+      "telegram_username": "anvar_admin",
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "prof-teacher-01",
+      "user_id": "usr-teacher-01",
+      "first_name": "Malika",
+      "last_name": "Rahimova",
+      "phone": "+998 93 987 65 43",
+      "role": "TEACHER",
+      "telegram_user_id": 11223344,
+      "telegram_username": "malika_teacher",
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "prof-student-01",
+      "user_id": "usr-student-01",
+      "first_name": "Muhammad",
+      "last_name": "Aliyev",
+      "phone": "+998 99 111 22 33",
+      "role": "STUDENT",
+      "telegram_user_id": 55667788,
+      "telegram_username": "muhammad_a",
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "prof-student-02",
+      "user_id": "usr-student-02",
+      "first_name": "Madina",
+      "last_name": "Karimova",
+      "phone": "+998 97 444 55 66",
+      "role": "STUDENT",
+      "telegram_user_id": 77889900,
+      "telegram_username": "madina_k",
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "prof-student-03",
+      "user_id": "usr-student-03",
+      "first_name": "Javohir",
+      "last_name": "Toshmatov",
+      "phone": "+998 91 777 88 99",
+      "role": "STUDENT",
+      "telegram_user_id": null,
+      "telegram_username": null,
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "prof-student-04",
+      "user_id": "usr-student-04",
+      "first_name": "Nilufar",
+      "last_name": "Yusupova",
+      "phone": "+998 94 333 22 11",
+      "role": "STUDENT",
+      "telegram_user_id": null,
+      "telegram_username": null,
+      "is_verified": true,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "updated_at": "2026-10-03T03:36:37.140Z"
+    }
+  ],
+  "groups": [
+    {
+      "id": "grp-01",
+      "name": "7-B",
+      "description": "7-sinf o'quvchilari uchun umumiy guruh",
+      "teacher_id": "prof-teacher-01",
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "grp-02",
+      "name": "English A2",
+      "description": "Ingliz tili A2 darajadagi boshlang'ich guruh",
+      "teacher_id": "prof-teacher-01",
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "grp-03",
+      "name": "IELTS Beginner",
+      "description": "Xalqaro imtihonga tayyorgarlik kursi",
+      "teacher_id": "prof-teacher-01",
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "grp-04",
+      "name": "Flyers Group 1",
+      "description": "Cambridge Flyers darajasi o'quvchilari",
+      "teacher_id": "prof-teacher-01",
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    }
+  ],
+  "group_members": [
+    {
+      "id": "gm-1",
+      "group_id": "grp-01",
+      "student_id": "prof-student-01",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "gm-2",
+      "group_id": "grp-01",
+      "student_id": "prof-student-02",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "gm-3",
+      "group_id": "grp-01",
+      "student_id": "prof-student-03",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "gm-4",
+      "group_id": "grp-02",
+      "student_id": "prof-student-01",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "gm-5",
+      "group_id": "grp-02",
+      "student_id": "prof-student-04",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "gm-6",
+      "group_id": "grp-03",
+      "student_id": "prof-student-02",
+      "joined_at": "2026-10-03T03:36:37.140Z"
+    }
+  ],
+  "tests": [
+    {
+      "id": "test-01",
+      "title": "Present Simple & Past Simple — Unit 3",
+      "description": "Zamonaviy grammatika va fe'llarning o'tgan zamon shakllari bo'yicha nazorat testi.",
+      "book_source": "English Grammar in Use (Raymond Murphy)",
+      "topic": "Grammar: Present & Past Tenses",
+      "group_id": "grp-02",
+      "teacher_id": "prof-teacher-01",
+      "time_limit_minutes": 20,
+      "attempt_limit": 1,
+      "passing_percentage": 60,
+      "opening_time": "2026-10-03T03:36:37.140Z",
+      "closing_time": "2026-12-04T03:36:37.140Z",
+      "randomize_questions": false,
+      "randomize_options": false,
+      "show_correct_answers": true,
+      "show_explanations": true,
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "test-02",
+      "title": "Matematika: Oddiy Kasrlar va Foizlar",
+      "description": "Kasrlarni qo'shish, ayirish, ko'paytirish va foiz hisoblash amaliyoti.",
+      "book_source": "7-sinf Matematika darsligi",
+      "topic": "Kasrlar va foizlar",
+      "group_id": "grp-01",
+      "teacher_id": "prof-teacher-01",
+      "time_limit_minutes": 25,
+      "attempt_limit": 2,
+      "passing_percentage": 70,
+      "opening_time": "2026-10-03T03:36:37.140Z",
+      "closing_time": "2026-12-04T03:36:37.140Z",
+      "randomize_questions": true,
+      "randomize_options": true,
+      "show_correct_answers": true,
+      "show_explanations": true,
+      "is_active": true,
+      "created_at": "2026-10-03T03:36:37.140Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-101",
+      "test_id": "test-01",
+      "question_text": "She _______ to school by bus every morning.",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "She uchinchi shaxs birlikda (he/she/it), shuning uchun Present Simple zamonida fe'lga -s/es qo'shiladi: goes.",
+      "order_num": 1,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-101-a",
+          "question_id": "q-101",
+          "option_letter": "A",
+          "option_text": "go",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-101-b",
+          "question_id": "q-101",
+          "option_letter": "B",
+          "option_text": "goes",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-101-c",
+          "question_id": "q-101",
+          "option_letter": "C",
+          "option_text": "going",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-101-d",
+          "question_id": "q-101",
+          "option_letter": "D",
+          "option_text": "went",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-102",
+      "test_id": "test-01",
+      "question_text": "Yesterday, we _______ a very interesting movie at the cinema.",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "'Yesterday' o'tgan zamon (Past Simple) belgisi bo'lib, see fe'lining II shakli 'saw' ishlatiladi.",
+      "order_num": 2,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-102-a",
+          "question_id": "q-102",
+          "option_letter": "A",
+          "option_text": "see",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-102-b",
+          "question_id": "q-102",
+          "option_letter": "B",
+          "option_text": "seen",
+          "is_correct": false,
+          "order_num": 2
+        },
+        {
+          "id": "opt-102-c",
+          "question_id": "q-102",
+          "option_letter": "C",
+          "option_text": "saw",
+          "is_correct": true,
+          "order_num": 3
+        },
+        {
+          "id": "opt-102-d",
+          "question_id": "q-102",
+          "option_letter": "D",
+          "option_text": "sees",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-103",
+      "test_id": "test-01",
+      "question_text": "_______ they live in Tashkent?",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "'They' olmoshi bilan Present Simple so'roq shaklida 'Do' yordamchi fe'li ishlatiladi.",
+      "order_num": 3,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-103-a",
+          "question_id": "q-103",
+          "option_letter": "A",
+          "option_text": "Does",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-103-b",
+          "question_id": "q-103",
+          "option_letter": "B",
+          "option_text": "Do",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-103-c",
+          "question_id": "q-103",
+          "option_letter": "C",
+          "option_text": "Are",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-103-d",
+          "question_id": "q-103",
+          "option_letter": "D",
+          "option_text": "Did",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-104",
+      "test_id": "test-01",
+      "question_text": "The sun rises in the east and sets in the west.",
+      "question_type": "TRUE_FALSE",
+      "points": 1,
+      "explanation": "Bu tabiat qonuniyati (universal truth) bo'lib, har doim haqiqat hisoblanadi.",
+      "order_num": 4,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-104-a",
+          "question_id": "q-104",
+          "option_letter": "TRUE",
+          "option_text": "To‘g‘ri",
+          "is_correct": true,
+          "order_num": 1
+        },
+        {
+          "id": "opt-104-b",
+          "question_id": "q-104",
+          "option_letter": "FALSE",
+          "option_text": "Noto‘g‘ri",
+          "is_correct": false,
+          "order_num": 2
+        }
+      ]
+    },
+    {
+      "id": "q-105",
+      "test_id": "test-01",
+      "question_text": "Where _______ you go on vacation last summer?",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "'last summer' o'tgan zamonda bo'lganligi uchun so'roq shaklida 'did' yordamchi fe'li qo'llanadi.",
+      "order_num": 5,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-105-a",
+          "question_id": "q-105",
+          "option_letter": "A",
+          "option_text": "do",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-105-b",
+          "question_id": "q-105",
+          "option_letter": "B",
+          "option_text": "did",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-105-c",
+          "question_id": "q-105",
+          "option_letter": "C",
+          "option_text": "were",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-105-d",
+          "question_id": "q-105",
+          "option_letter": "D",
+          "option_text": "have",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-106",
+      "test_id": "test-01",
+      "question_text": "He didn't _______ coffee this morning.",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "O'tgan zamon inkor shaklida 'didn't' dan keyin fe'lning asosiy (infinitive) shakli keladi: drink.",
+      "order_num": 6,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-106-a",
+          "question_id": "q-106",
+          "option_letter": "A",
+          "option_text": "drank",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-106-b",
+          "question_id": "q-106",
+          "option_letter": "B",
+          "option_text": "drink",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-106-c",
+          "question_id": "q-106",
+          "option_letter": "C",
+          "option_text": "drinks",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-106-d",
+          "question_id": "q-106",
+          "option_letter": "D",
+          "option_text": "drinking",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-107",
+      "test_id": "test-01",
+      "question_text": "In English, the past form of 'buy' is 'buyed'.",
+      "question_type": "TRUE_FALSE",
+      "points": 1,
+      "explanation": "'Buy' noto'g'ri fe'l (irregular verb), uning o'tgan zamon shakli 'bought' bo'ladi.",
+      "order_num": 7,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-107-a",
+          "question_id": "q-107",
+          "option_letter": "TRUE",
+          "option_text": "To‘g‘ri",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-107-b",
+          "question_id": "q-107",
+          "option_letter": "FALSE",
+          "option_text": "Noto‘g‘ri",
+          "is_correct": true,
+          "order_num": 2
+        }
+      ]
+    },
+    {
+      "id": "q-108",
+      "test_id": "test-01",
+      "question_text": "My brother usually _______ books in the evening.",
+      "question_type": "SINGLE",
+      "points": 2,
+      "explanation": "'Usually' odatiy harakatni ifodalaydi. My brother (he) bo'lgani uchun 'reads' to'g'ri keladi.",
+      "order_num": 8,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-108-a",
+          "question_id": "q-108",
+          "option_letter": "A",
+          "option_text": "read",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-108-b",
+          "question_id": "q-108",
+          "option_letter": "B",
+          "option_text": "reads",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-108-c",
+          "question_id": "q-108",
+          "option_letter": "C",
+          "option_text": "is reading",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-108-d",
+          "question_id": "q-108",
+          "option_letter": "D",
+          "option_text": "has read",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-201",
+      "test_id": "test-02",
+      "question_text": "1/4 kasr necha foizga teng?",
+      "question_type": "SINGLE",
+      "points": 2.5,
+      "explanation": "1/4 * 100% = 25%.",
+      "order_num": 1,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-201-a",
+          "question_id": "q-201",
+          "option_letter": "A",
+          "option_text": "20%",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-201-b",
+          "question_id": "q-201",
+          "option_letter": "B",
+          "option_text": "25%",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-201-c",
+          "question_id": "q-201",
+          "option_letter": "C",
+          "option_text": "40%",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-201-d",
+          "question_id": "q-201",
+          "option_letter": "D",
+          "option_text": "50%",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-202",
+      "test_id": "test-02",
+      "question_text": "200 ning 15 foizini toping.",
+      "question_type": "SINGLE",
+      "points": 2.5,
+      "explanation": "200 * 0.15 = 30.",
+      "order_num": 2,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-202-a",
+          "question_id": "q-202",
+          "option_letter": "A",
+          "option_text": "25",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-202-b",
+          "question_id": "q-202",
+          "option_letter": "B",
+          "option_text": "30",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-202-c",
+          "question_id": "q-202",
+          "option_letter": "C",
+          "option_text": "35",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-202-d",
+          "question_id": "q-202",
+          "option_letter": "D",
+          "option_text": "40",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    },
+    {
+      "id": "q-203",
+      "test_id": "test-02",
+      "question_text": "3/5 kasr 0.6 o'nli kasriga teng.",
+      "question_type": "TRUE_FALSE",
+      "points": 2,
+      "explanation": "3 ni 5 ga bo'lsak 0.6 chiqadi, shuning uchun to'g'ri.",
+      "order_num": 3,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-203-a",
+          "question_id": "q-203",
+          "option_letter": "TRUE",
+          "option_text": "To‘g‘ri",
+          "is_correct": true,
+          "order_num": 1
+        },
+        {
+          "id": "opt-203-b",
+          "question_id": "q-203",
+          "option_letter": "FALSE",
+          "option_text": "Noto‘g‘ri",
+          "is_correct": false,
+          "order_num": 2
+        }
+      ]
+    },
+    {
+      "id": "q-204",
+      "test_id": "test-02",
+      "question_text": "Hisoblang: 1/2 + 1/3 = ?",
+      "question_type": "SINGLE",
+      "points": 3,
+      "explanation": "Umumiy maxraj 6. (3 + 2) / 6 = 5/6.",
+      "order_num": 4,
+      "created_at": "2026-10-03T03:36:37.140Z",
+      "options": [
+        {
+          "id": "opt-204-a",
+          "question_id": "q-204",
+          "option_letter": "A",
+          "option_text": "2/5",
+          "is_correct": false,
+          "order_num": 1
+        },
+        {
+          "id": "opt-204-b",
+          "question_id": "q-204",
+          "option_letter": "B",
+          "option_text": "5/6",
+          "is_correct": true,
+          "order_num": 2
+        },
+        {
+          "id": "opt-204-c",
+          "question_id": "q-204",
+          "option_letter": "C",
+          "option_text": "1/6",
+          "is_correct": false,
+          "order_num": 3
+        },
+        {
+          "id": "opt-204-d",
+          "question_id": "q-204",
+          "option_letter": "D",
+          "option_text": "3/6",
+          "is_correct": false,
+          "order_num": 4
+        }
+      ]
+    }
+  ],
+  "test_attempts": [
+    {
+      "id": "att-sample-01",
+      "test_id": "test-01",
+      "student_id": "prof-student-01",
+      "started_at": "2026-10-05T02:36:37.141Z",
+      "expires_at": "2026-10-05T02:56:37.141Z",
+      "submitted_at": "2026-10-05T02:54:57.141Z",
+      "status": "COMPLETED",
+      "tab_exits_count": 1,
+      "current_answers_json": {
+        "q-101": "B",
+        "q-102": "C",
+        "q-103": "B",
+        "q-104": "TRUE",
+        "q-105": "B",
+        "q-106": "B",
+        "q-107": "FALSE",
+        "q-108": "A"
+      },
+      "last_saved_at": "2026-10-05T02:54:57.141Z"
+    }
+  ],
+  "test_results": [
+    {
+      "id": "res-sample-01",
+      "attempt_id": "att-sample-01",
+      "test_id": "test-01",
+      "student_id": "prof-student-01",
+      "total_questions": 8,
+      "correct_answers": 7,
+      "incorrect_answers": 1,
+      "total_points": 14,
+      "earned_points": 12,
+      "percentage": 85.7,
+      "is_passed": true,
+      "time_spent_seconds": 1100,
+      "tab_exits_count": 1,
+      "created_at": "2026-10-05T02:54:57.141Z"
+    }
+  ],
+  "verification_codes": [
+    {
+      "id": "vc-1791171397597-ptsi",
+      "phone": "+998 90 999 88 77",
+      "code_hash": "2c62c237bdfa9e6e2e460394a00c68228f9d48ddfdd78eafd1bb731ed30b2bfd",
+      "plain_code": "112705",
+      "telegram_user_id": null,
+      "expires_at": "2026-10-05T03:41:37.597Z",
+      "is_used": true,
+      "attempts_count": 1,
+      "created_at": "2026-10-05T03:36:37.597Z"
+    },
+    {
+      "id": "vc-1791171742608-lknk",
+      "phone": "+998 90 999 88 77",
+      "code_hash": "11a211906bb92eae4e7ed98f73bd21aa7be7d34fc963d25c587ed37a986b579a",
+      "plain_code": "642016",
+      "telegram_user_id": null,
+      "expires_at": "2026-10-05T03:47:22.608Z",
+      "is_used": true,
+      "attempts_count": 1,
+      "created_at": "2026-10-05T03:42:22.608Z"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-01",
+      "user_id": "prof-admin-01",
+      "user_name": "Anvar Qodirov",
+      "action": "SYSTEM_INITIALIZATION",
+      "target_type": "SYSTEM",
+      "target_id": "SYSTEM",
+      "metadata_json": {
+        "version": "2.0.0",
+        "platform": "TestMakon"
+      },
+      "created_at": "2026-10-03T03:36:37.140Z"
+    },
+    {
+      "id": "log-02",
+      "user_id": "prof-teacher-01",
+      "user_name": "Malika Rahimova",
+      "action": "TEST_CREATED",
+      "target_type": "TEST",
+      "target_id": "test-01",
+      "metadata_json": {
+        "test_title": "Present Simple & Past Simple — Unit 3",
+        "group": "English A2"
+      },
+      "created_at": "2026-10-03T03:36:37.140Z"
+    }
+  ],
+  "retake_authorizations": []
+}

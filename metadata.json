@@ -1,0 +1,6 @@
+{
+  "name": "TestMakon - Professional Onlayn Test Platformasi",
+  "description": "O'zbekiston talaba va o'quvchilari uchun zamonaviy, xavfsiz va to'liq avtomatlashtirilgan onlayn imtihon va test platformasi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
